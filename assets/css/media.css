@@ -1,0 +1,38 @@
+/* CSS RESPONSIVE */
+/* 1) Desktop(1200px+ -> screen width)
+2) table(769px to 1200px -> screen width)
+3) Mobile (0px to 768px -> screen width) */
+/* MOBILE */
+@media(max-width:768px){
+    header{
+        background-color: blue;
+    }   
+    header>nav{
+        text-align: center;
+        padding: 20px;
+    }
+    header>nav>ul{
+        float: none;
+    }
+    header>nav>ul>li{
+       
+        display: block;
+    
+    }
+}
+/* TAB */
+@media(min-width: 769px) and (max-width: 1200px){
+    header{
+        background-color: yellow;
+    }
+    header>nav{
+        text-align: center;
+        padding: 20px;
+    }
+    header>nav>ul{
+        float: none;
+    }
+    .banner1{
+        background-color: #008080;
+    }
+}
